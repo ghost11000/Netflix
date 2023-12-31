@@ -1,0 +1,67 @@
+footer{
+    height: 350px;
+    background-color: #000;
+    display: flex;
+}
+.container-footer{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+.social-reds{
+    
+    display: flex;
+    gap: 1rem;
+}
+.social-reds a{
+    color: #fff;
+}
+.social-reds i{
+    font-size: 1.3rem;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.grid-options{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 30px;
+}
+
+.grid-options ul{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.grid-options ul a{
+    color: grey;
+    font-size: 14px;
+    transition: text-decoration .2 ease-in-out;
+}
+.grid-options ul a:hover{
+    text-decoration: underline;
+}
+.button button{
+    border: 1px solid grey;
+    background-color: #000;
+    color: grey;
+    padding: 4px 5px;
+    cursor: pointer;
+}
+.button button span{
+    font-size: 14px;
+    transition: all .2s ease-in-out;
+}
+.button button:hover{
+    span{
+        color: #fff;
+    }
+}
+.button p{
+    margin-top: 20px;
+    color: grey;
+    font-size: 14px;
+}

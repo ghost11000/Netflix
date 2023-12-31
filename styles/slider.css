@@ -1,0 +1,313 @@
+.fondo-sliders{
+   width: 100%;
+   height: 270vh;
+   background-color: #000;
+   color: #fff;
+   position: relative;
+}
+.content-sliders{
+    width: 92%;
+    position: absolute;
+    right: 3.2%;
+    top: -4.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.slider{
+    display: flex;
+    height: 20vh;
+    gap: 5px;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.all-img,.box-rank{
+    flex: auto;
+    border-radius:2px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+
+/* SUGERENCIAS */
+.imagen-1{
+    background-image: url(/imagens/imagen-slider-1.webp);
+    background-position: center center;
+    background-size: cover;
+}
+.imagen-2 {
+    background-image: url(/imagens/imagen-slider-2.webp);
+    background-position: center center;
+    background-size: cover;
+}
+.imagen-3 {
+    background-image: url(/imagens/imagen-slider-3.webp);
+    background-position: center center;
+    background-size: cover;
+}
+.imagen-4 {
+    background-image: url(/imagens/imagen-slider-4.webp);
+    background-position: center center;
+    background-size: cover;
+}
+.imagen-5 {
+    background-image: url(/imagens/imagen-slider-5.webp);
+    background-position: center center;
+    background-size: cover;
+}
+
+
+/* Animación */
+.animacion-1{
+    background-image: url(/imagens/animacion-slider-1.webp);
+    background-position: center center ;
+    background-size: cover;
+}
+.animacion-2 {
+    background-image: url(/imagens/animacion-slider-2.webp);
+    background-position: center center;
+    background-size: cover;
+}
+.animacion-3 {
+    background-image: url(/imagens/animacion-slider-3.webp);
+    background-position: center center;
+    background-size: cover;
+}
+.animacion-4 {
+    background-image: url(/imagens/animacion-slider-4.webp);
+    background-position: center center;
+    background-size: cover;
+}
+.animacion-5 {
+    background-image: url(/imagens/animacion-slider-5.webp);
+    background-position: center center;
+    background-size: cover;
+}
+
+/* CONTINUAR */
+
+.continuar-1{
+    background-image: url(/imagens/continuar-1.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.continuar-2 {
+    background-image: url(/imagens/continuar-2.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.continuar-3 {
+    background-image: url(/imagens/continuar-3.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+/* DOCUMENTALES */
+.documentales-1{
+    background-image: url(/imagens/documentales-slider-1.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.documentales-2 {
+    background-image: url(/imagens/documentales-slider-2.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.documentales-3 {
+    background-image: url(/imagens/documentales-slider-3.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.documentales-4 {
+    background-image: url(/imagens/documentales-slider-4.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.documentales-5 {
+    background-image: url(/imagens/documentales-slider-5.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+/* TENDENCIAS */
+
+.tendencias-1{
+    background-image: url(/imagens/tendencias-slider-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.tendencias-2 {
+    background-image: url(/imagens/tendencias-slider-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.tendencias-3 {
+    background-image: url(/imagens/tendencias-slider-3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.tendencias-4 {
+    background-image: url(/imagens/tendencias-slider-4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.tendencias-5 {
+    background-image: url(/imagens/tendencias-slider-5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* COMEDIAS */
+.comedias-1{
+    background-image: url(/imagens/comedias-1.webp);
+    background-position: center;
+    background-size: cover;
+}
+.comedias-2 {
+    background-image: url(/imagens/comedias-2.webp);
+    background-position: center;
+    background-size: cover;
+}
+.comedias-3 {
+    background-image: url(/imagens/comedias-3.webp);
+    background-position: center;
+    background-size: cover;
+}
+.comedias-4 {
+    background-image: url(/imagens/comedias-4.webp);
+    background-position: center;
+    background-size: cover;
+}
+.comedias-5 {
+    background-image: url(/imagens/comedias-5.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* LISTA */
+.lista-1{
+    background-image: url(/imagens/mi-lista-1.jpg);
+    background-position: center ;
+    background-size: cover;
+}
+.lista-2 {
+    background-image: url(/imagens/mi-lista-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.lista-3 {
+    background-image: url(/imagens/mi-lista-3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.lista-4 {
+    background-image: url(/imagens/mi-lista-4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.lista-5 {
+    background-image: url(/imagens/mi-lista-5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* MOVIES TOP */
+.top-movie-1{
+    background-image: url(/imagens/comedias-1.webp);
+    background-position: center center;
+    background-size: cover;
+}
+.top-movie-2 {
+    background-image: url(/imagens/imagen-slider-1.webp);
+    background-position: center center;
+    background-size: cover;
+}
+.top-movie-3 {
+    background-image: url(/imagens/imagen-slider-2.webp);
+    background-position: center center;
+    background-size: cover;
+}
+.top-movie-4 {
+    background-image: url(/imagens/comedias-2.webp);
+    background-position: center center;
+    background-size: cover;
+}
+.top-movie-5 {
+    background-image: url(/imagens/comedias-4.webp);
+    background-position: center center;
+    background-size: cover;
+}
+.box-rank{
+    width: 154.812px;
+    height: 140px;
+    position: relative;
+}
+.box-rank div {
+    width: 65%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    z-index: 20;
+}
+
+.svg-icon-rank-1{
+    position: absolute;
+    right: 44%;
+    z-index: 10;
+    width: 200px;
+}
+.svg-icon-rank-2 {
+    position: absolute;
+    right: 44%;
+    z-index: 10;
+    width: 200px;
+}
+.svg-icon-rank-3 {
+    position: absolute;
+    right: 44%;
+    z-index: 10;
+    width: 200px;
+}
+.svg-icon-rank-4 {
+    position: absolute;
+    right: 44%;
+    z-index: 10;
+    width: 200px;
+}
+.svg-icon-rank-5 {
+    position: absolute;
+    right: 44%;
+    z-index: 10;
+    width: 200px;
+}
+
+/* LANZAMIENTOS */
+.lanzamientos-1{
+    background-image: url(/imagens/lanzamientos-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.lanzamientos-2 {
+    background-image: url(/imagens/lanzamientos-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.lanzamientos-3 {
+    background-image: url(/imagens/lanzamientos-3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.lanzamientos-4 {
+    background-image: url(/imagens/lanzamientos-4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.lanzamientos-5 {
+    background-image: url(/imagens/lanzamientos-5.jpg);
+    background-position: center;
+    background-size: cover;
+}
